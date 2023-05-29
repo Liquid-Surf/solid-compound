@@ -96,7 +96,7 @@ Part 6: Maintenance (10%)
 
 Part 7: Showcase (10%):
 
-( including travel expenses )
+(including travel expenses)
 
 - Press release
   - presentation a Solid World
