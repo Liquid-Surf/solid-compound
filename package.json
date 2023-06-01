@@ -1,0 +1,28 @@
+{
+  "name": "solid-compound",
+  "version": "1.0.0",
+  "description": "Solid Compound is a software library/framework for the [Solid](https://solidproject.org/) ecosystem that allows Solid developers to easily build web applications that are compatible with the [Solid specification](https://solidproject.org/TR/protocol) but also offer a way to use the web applications in a \"traditional\" way (without Solid), meaning, where the application authenticates users and stores their data. With this library a developer can build web applications that have the capabilities to:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liquid-Surf/solid-compound.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liquid-Surf/solid-compound/issues"
+  },
+  "homepage": "https://github.com/Liquid-Surf/solid-compound#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/"
+  ]
+}
