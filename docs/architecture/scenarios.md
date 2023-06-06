@@ -72,7 +72,7 @@ This user wants to use one of their existing hosted storage solutions such as Dr
 
 ### Web Developer
 
-This web developer is creating the to-do app in *regular* MVC manner.
+This web developer is creating the to-do app in *regular* MVC manner. This is only for demostrative reasons. Of course this section will not cover the above user stories that require the Solid protocol.
 
 #### First Iteration (Basics)
 
