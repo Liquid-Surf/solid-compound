@@ -29,11 +29,14 @@
 ### Shared Database
 
 - Enable data to be shared freely
+  - share data with specific users of the app 
+  - make data publicly accessible
 - Testing
 
 ### Data Migration
 
-Migration of data however it is stored
+- Migration of data however it is stored using solid pod migrator
+  - replace our internal webId with an external one ( could be a PR to the pod migrator ) 
 
 -
 - Testing
