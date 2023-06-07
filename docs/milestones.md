@@ -36,11 +36,14 @@
 
 ### Data Migration
 
-- Migration of data however it is stored using solid pod migrator
-  - replace our internal webId with an external one ( could be a PR to the pod migrator ) 
+  - Migration of data however it is stored using solid pod migrator
+    - replace our internal webId with an external one ( could be a PR to the pod migrator ) 
+  - Testing
 
--
-- Testing
+### Solid Support for RemoteStorage.js
+
+ - Impove RemoteStorage.js to add Solid as a storage option alongside Google Drive and Dropbox
+
 
 ## Documentation
 
@@ -50,18 +53,30 @@
   - Build an example app that uses solid-compound
   - "Getting started"
 
-### Improvement
 
-- Stress test and benchmark
-- Investigate alternative solutions to improve performance
+## External Security and Accessibility Review
 
-### Maintenance
+ - fixes from the external security audit
+
+We keep a 30% margin in case our prediction are too optimistics, Otherwise, we will
+
+## Improvement
+
+### Implement User Registration Initiation via Solid-OpenID Connect
+
+ -  This enhancement will be beneficial to our framework's registration process and improves interoperability with various Identity Providers. As this improvement is tied to the solid-oidc specification it will also contribute positively to the entire Solid ecosystem. ( see https://github.com/solid/solid-oidc/issues/77)
+
+### performance
+
+  - Stress test and benchmark
+  - Investigate alternative solutions to improve performance
+
+## Maintenance
 
 - Provide maintenance
   - as Solid specification changes
   - developers start using solid-compound
 
-## External Security and Accessibility Review
 
 ## Showcase
 
@@ -70,7 +85,3 @@
   - conference FOSDEM 2024?
   - hackernews article
 
-## Solid Support for RemoteStorage.js
-
-## Implement User Registration Initiation via Solid-OpenID Connect
- -  Implement https://github.com/solid/solid-oidc/issues/77 to enhance the registration flow within solid-oidc. This enhancement will be beneficial to our framework's registration process and improves interoperability with various Identity Providers. As this improvement is tied to the solid-oidc specification it will also contribute positively to the entire Solid ecosystem.
