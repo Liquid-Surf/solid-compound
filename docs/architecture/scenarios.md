@@ -145,8 +145,6 @@ This round we want to be able to share lists between users, no matter where the 
    3. Use participants identifier to fetch their data and find the list to render
    4. TODO: How to do this with remotestorage?
 
-
-
 ## Notes
 
 User A stores in Solid Pod and gives access to User B
@@ -156,7 +154,3 @@ User B visits app, can fetch their own data, permission to read User A's data in
 If data if fully public, no problems
 If data is only shared with user B. It will only work if user B has a WebId
 If user B has their data in our Solid Pod, they will a WebID, if they have it remotely in Solid pod they can also
-
-
-
-
