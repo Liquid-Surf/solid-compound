@@ -64,7 +64,7 @@ This user wants to use one of their existing IDP, such as GitHub e.g.
 This user wants to use one of their existing hosted storage solutions such as Dropbox.
 
 1. The user visits the domain where the app is hosted
-2. Upon first visit the user is prompted to *optionally* authenticate
+2. Upon first visit the user is prompted to *optionally* authenticate with the app.
 3. Creates a list
 4. Creates to-dos
 5. Uses RemoteStorage.js widget to sync their data to Dropbox/Google Drive
@@ -106,3 +106,57 @@ Allow a list to be shared with other users.
 ### Solid App Developer
 
 The Solid App developer wants to create an application that can house all the different end-users. The Solid App developer is familiar with Web development and has worked with Solid before, but is not an expert with all Solid paradigms.
+
+#### Without Solid-Compound
+
+#### First Iteration (Basics)
+
+Allow simple sign up and login with the app. Create to-dos through an HTML form.
+
+Features
+
+- Login with Solid IDP
+- Read and write to Solid pod
+- Create WebId
+- Create Solid Pod
+
+1. Integrate solid-client-authn for authenticating with Solid Pods
+2. Integrate solid-client or LDO for access stored in Solid Pods
+3. Build tool to provide list of Solid Pod providers and create WebId and Pod on behalf of the user
+   1. If the user wants the app to create WebId and Pod with external Pod provider
+4. Local Storage with app
+   1. Host locally a Solid Pod (CSS)
+   2. Or file based
+5. Provide HTML form with username, email address and password to create an account with app
+   1. Point 4. and 5. will be connected. The user's data will be stored in CSS where the app hosts it
+6. Integrate with RemoteStorage.js
+   1. Define `Data Modules` via json-ld to store Linked Data with Dropbox/Google Drive
+7. Give option to migrate data via pod-migrator
+   1. Migrate from internal WebId and Solid Pod to remote
+
+#### Second Iteration (Shared Lists)
+
+This round we want to be able to share lists between users, no matter where the data is stored.
+
+1. Shared lists need a reference who participates in a list
+2. Create a central place to store a shared list index
+   1. Existing App's CSS can be used
+   2. Store shared lists index with information on who the participants are
+   3. Use participants identifier to fetch their data and find the list to render
+   4. TODO: How to do this with remotestorage?
+
+
+
+## Notes
+
+User A stores in Solid Pod and gives access to User B
+User B stores whereever
+
+User B visits app, can fetch their own data, permission to read User A's data in their Solid pod
+If data if fully public, no problems
+If data is only shared with user B. It will only work if user B has a WebId
+If user B has their data in our Solid Pod, they will a WebID, if they have it remotely in Solid pod they can also
+
+
+
+
