@@ -28,3 +28,4 @@
 ## Solid Support for RemoteStorage.js
 
 ## Implement User Registration Initiation via Solid-OpenID Connect
+ -  Implement https://github.com/solid/solid-oidc/issues/77 to enhance the registration flow within solid-oidc. This enhancement will be beneficial to our framework's registration process and improves interoperability with various Identity Providers. As this improvement is tied to the solid-oidc specification it will also contribute positively to the entire Solid ecosystem.
