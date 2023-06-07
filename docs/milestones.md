@@ -18,8 +18,9 @@
 
 ### Hybrid Database
 
-- Solid database library
-  -
+- Solid database API
+  - The developer does here not care where the data is stored and is provided with
+  - build library that uses existing Solid tools to authenticate with Solid IDPs and access Solid data
 
 
   - developing a library that stores data in a Solid compatible fashion that can be used as "classic" db library, exect that data are stored as linked data and live in the Solid specification.
@@ -44,17 +45,17 @@
 ## Documentation
 
 - Full test suite
-- Documentation on how to use the library
+- Documentation on how to use solid-compound
 - Pedagogic material
-  - Build an example app that uses the library
+  - Build an example app that uses solid-compound
   - "Getting started"
 
-### Improvement (10% ~ 14 days)
+### Improvement
 
 - Stress test and benchmark
 - Investigate alternative solutions to improve performance
 
-### Maintenance (10%)
+### Maintenance
 
 - Provide maintenance
   - as Solid specification changes
