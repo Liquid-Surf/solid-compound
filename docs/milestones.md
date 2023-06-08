@@ -97,11 +97,11 @@ We keep a 30% margin in case our prediction are too optimistics, Otherwise, we w
 
 - Provide maintenance
   - as Solid specification changes
-  - developers start using solid-compound
+  - as developers start using solid-compound
 
 ## Showcase (6 days)
 
 - Press release
-  - presentation a Solid World
-  - conference FOSDEM 2024?
-  - hackernews article
+  - Presentation at Solid World
+  - Conference FOSDEM 2024
+  - Hacker News article
