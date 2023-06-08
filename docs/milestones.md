@@ -11,6 +11,7 @@
     - Michiel De Jong
     - Jackson Morgan
     - Angelo Veltens
+    - Ruben Verborgh
 - Figure out how existing libraries can be used and what needs to be adapted
 - Investigation on Solid data mover (Pod Migrator)
 - API for creating pods with external pod providers
