@@ -94,13 +94,13 @@ We keep a 30% margin in case our prediction are too optimistics, Otherwise, we w
 - Stress test and benchmark
 - Investigate alternative solutions to improve performance
 
-## Maintenance (14 days)
+## Maintenance (10 days)
 
 - Provide maintenance
   - as Solid specification changes
   - as developers start using solid-compound
 
-## Showcase (6 days)
+## Showcase (5 days)
 
 - Press release
   - Presentation at Solid World
