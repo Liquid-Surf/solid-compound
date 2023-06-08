@@ -62,7 +62,7 @@
 
 ### Solid Support for RemoteStorage.js (10 days)
 
-- Impove RemoteStorage.js to add Solid as a storage option alongside Google Drive and Dropbox
+- Improve RemoteStorage.js to add Solid as a storage option alongside Google Drive and Dropbox
 
 ## Documentation (14 days)
 
@@ -75,7 +75,7 @@
 ## External Security and Accessibility Review (7 days)
 
 - Improve project based on external security audit
-- Accessibily
+- Accessibility
 
 We keep a 30% margin in case our prediction are too optimistics, Otherwise, we will
 
@@ -83,7 +83,7 @@ We keep a 30% margin in case our prediction are too optimistics, Otherwise, we w
 
 ### Implement User Registration Initiation via Solid-OpenID Connect
 
-- Implement OpenID Conncet Prompt Create
+- Implement OpenID Connect Prompt Create
   - This enhancement will be beneficial to our framework's registration process and improves interoperability with various Identity Providers.
   - As this improvement is tied to the solid-oidc specification it will also contribute positively to the entire Solid ecosystem.
 - <https://github.com/solid/solid-oidc/issues/77>
