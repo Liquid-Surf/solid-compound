@@ -10,6 +10,7 @@
     - Jeff Zucker
     - Michiel De Jong
     - Jackson Morgan
+    - Angelo Veltens
 - Figure out how existing libraries can be used and what needs to be adapted
 - Investigation on Solid data mover (Pod Migrator)
 - API for creating pods with external pod providers
