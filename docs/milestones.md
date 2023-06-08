@@ -67,7 +67,7 @@
 
 ## Documentation (14 days)
 
-- Full test suite
+- Improve existing tests of solid-compound's components
 - Documentation on how to use solid-compound
 - Pedagogic material
   - Build an example app that uses solid-compound
