@@ -1,6 +1,6 @@
 # Milestones
 
-## Pre-work: Research and Interviews (7 days)
+## Pre-work: Research and Interview
 
 - Talk to Solid (App) developers
   - Understand current struggles
@@ -15,6 +15,26 @@
 - Figure out how existing libraries can be used and what needs to be adapted
 - Investigation on Solid data mover (Pod Migrator)
 - API for creating pods with external pod providers
+- Other things Solid could need to improve onboarding?
+
+## Improve Onboarding with Solid
+
+### M1: Identity Bridge
+
+Many end-users already have accounts with digital identity providers, such as Google, Facebook, GitHub. The list is endless. Solid uses the same authentication concepts deployed by these company for their decentralized authentication. In this milestone we aim to provide an identity bridge that allows end-users to re-use their existing IDP to register with a Solid IDP.
+The solution would be a deployable service that sits in front of a Solid IDP and enrich the authentication request from an external OpenID Connect server with the missing Solid OpenID Connect fields.
+
+#### Milestones
+
+#### Amount
+
+### M2: User Registration Initiation via Solid-OpenID Connect
+
+When an end-user signs up for an account with a Solid IDP the registration flow does not log in the user after the registration is done. Which means when the end-user goes successfully through the Solid-OIDC registration flow of providing a username, email address and password they need to subsequently log in as well. The protocol does not do this automatically for them.
+
+#### Milestones
+
+#### Amount
 
 ## Development
 
