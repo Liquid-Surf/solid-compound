@@ -19,111 +19,83 @@
 
 ## Improve Onboarding with Solid
 
-### M1: Identity Bridge
+### OIDC Proxy
 
-Many end-users already have accounts with digital identity providers, such as Google, Facebook, GitHub. The list is endless. Solid uses the same authentication concepts deployed by these company for their decentralized authentication. In this milestone we aim to provide an identity bridge that allows end-users to re-use their existing IDP to register with a Solid IDP.
-The solution would be a deployable service that sits in front of a Solid IDP and enrich the authentication request from an external OpenID Connect server with the missing Solid OpenID Connect fields.
+Develop an identity bridge that enables end-users to register with a Solid IDP using their existing accounts from digital identity providers (e.g., Google, Facebook, GitHub). The OIDC proxy will enhance the authentication request from an external OpenID Connect server with the necessary Solid OpenID Connect fields.
 
 #### Milestones
 
+- Research and understand the authentication flows and protocols of external OpenID Connect providers.
+- Design and implement the OIDC proxy service that sits in front of the Solid IDP.
+- Identify and enrich the authentication request from the external OIDC provider with the required Solid OpenID Connect fields.
+- Implement secure communication between the OIDC proxy and the Solid IDP.
+- Test the OIDC proxy functionality with various external OIDC providers and ensure seamless registration with the Solid IDP using existing accounts.
+
 #### Amount
 
-### M2: User Registration Initiation via Solid-OpenID Connect
+10000 Euro
+
+### User Registration Initiation via Solid-OpenID Connect
 
 When an end-user signs up for an account with a Solid IDP the registration flow does not log in the user after the registration is done. Which means when the end-user goes successfully through the Solid-OIDC registration flow of providing a username, email address and password they need to subsequently log in as well. The protocol does not do this automatically for them.
 
 #### Milestones
 
+- Review the existing Solid-OIDC specification and identify the necessary modifications for the pod signup protocol.
+- Propose the required changes to the Solid community and gather feedback.
+- Update the Solid-OIDC specification to incorporate the pod signup feature.
+- Implement the changes in the Solid-OIDC library inside CSS and ensure compatibility with existing Solid applications.
+- Test the pod signup functionality across different scenarios and validate its effectiveness in reducing friction for new users.
+
 #### Amount
 
-## Development
+10000 Euro
 
-### Create WebID/Solid Pod API (15 days)
+### Multiple Pods Listed in Private Document
 
-- With a local instance of CSS running along side Solid app
-- Externally with a user picked Solid Pod provider
-- Internally create WebID without CSS
-- Testing
+Develop a private file format in the user's Solid pod that allows listing and discovery of multiple storage locations.
 
-### Hybrid Storage (25 days)
+#### Milestones
 
-- Internal storage
-  - Either simply stored data in a locally running CSS instance
-  - or create functionality to store RDF without hosting s Solid server and store in eg. Browser DB or SQLite. Use WebID from previous step for linking data with others
-- External storage
-  - Browser
-  - With Solid Pod
-  - With RemoteStorage compatible system
-- Testing
+- Define the RDF-based file format for storing the information of multiple pod locations.
+- Create a mechanism to generate and update the private document in the user's pod.
+- Design and implement the logic to read and parse the private document to retrieve the list of storage locations.
+- Integrate the private document functionality into Solid applications to enable seamless discovery of different storage options.
+- Test the private document functionality with various pod providers and ensure accurate retrieval of pod location information.
 
-### Access Data (25 days)
+#### Amount
 
-- Authentication and authorization
-  - Integrate solid-client-authn for authenticating with Solid Pods
-  - Integrate with other OAuth2 identity providers, such as GitHub
-  - Provide basic auth
-- Data Access Abstraction
-  - Easy access to data wherever it resides
-    - on top of existing Solid access libraries (if using LDflex, extend with write)
-- Public data and sharing
-  - Ensures that Solid concept of freely sharing is still applicable
-  - Enable data to be shared freely
-    - share data with specific users of the app
-    - make data publicly accessible
-- Testing
+10000 Euro
 
-### Synchronization/migration feature (10 days)
+### Cookie "Where is My Pod?" Page
 
-- Synchronize WebIDs
-- Transfer data from/to
-  - RemoteStorage
-  - Browser
-  - Solid Pod
-  - DB
-- Testing
+Develop a website page called "Where is My Pod?" that sets a cookie to remember the Solid Pod's location for an end user.
 
-### Solid Support for RemoteStorage.js (10 days)
+#### Milestones
 
-- Improve RemoteStorage.js to add Solid as a storage option alongside Google Drive and Dropbox
+- Create the "Where is My Pod?" page with a user-friendly interface.
+- Implement the logic to set a cookie containing the user's Solid Pod location.
+- Handle multiple pod providers and allow users to select and save their preferred pod location.
+- Test the cookie functionality across different browsers and verify the accurate retrieval of pod location from the cookie.
+- Provide clear instructions and links to the "Where is My Pod?" page on relevant Solid websites and applications.
 
-## Documentation (14 days)
+#### Amount
 
-- Improve existing tests of solid-compound's components
-- Documentation on how to use solid-compound
-- Pedagogic material
-  - Build an example app that uses solid-compound
-  - "Getting started"
+10000 Euro
 
-## External Security and Accessibility Review (7 days)
+### Autofill Field Type for WebID + Browser Extension
 
-- Improve project based on external security audit
-- Accessibility
+Develop an autofill field type for the WebID attribute and create a browser extension to facilitate autofilling information in Solid Apps.
 
-We keep a 30% margin in case our prediction are too optimistics, Otherwise, we will
+#### Milestones
 
-## Improvement (14 days)
+- Define the field type specification for WebID autofill in Solid Apps.
+- Implement the autofill functionality to automatically populate WebID fields with relevant information.
+- Create a browser extension compatible with major browsers to support the autofill functionality.
+- Test the autofill feature across various Solid Apps and ensure seamless integration and accurate population of WebID fields.
+- Provide clear documentation and instructions on how to install and use the browser extension for autofilling WebID attributes in Solid Apps.
 
-### Implement User Registration Initiation via Solid-OpenID Connect
+#### Amount
 
-- Implement OpenID Connect Prompt Create
-  - This enhancement will be beneficial to our framework's registration process and improves interoperability with various Identity Providers.
-  - As this improvement is tied to the solid-oidc specification it will also contribute positively to the entire Solid ecosystem.
-- <https://github.com/solid/solid-oidc/issues/77>
+10000 Euro
 
-### Performance
-
-- Stress test and benchmark
-- Investigate alternative solutions to improve performance
-
-## Maintenance (10 days)
-
-- Provide maintenance
-  - as Solid specification changes
-  - as developers start using solid-compound
-
-## Showcase (5 days)
-
-- Press release
-  - Presentation at Solid World
-  - Conference FOSDEM 2024
-  - Hacker News article
