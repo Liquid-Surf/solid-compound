@@ -51,6 +51,21 @@ When an end-user signs up for an account with a Solid IDP the registration flow 
 
 10000 Euro
 
+### FedCM + WebID
+
+The Federated Credential Management (FedCM) API allows web developers to query for user registered IDPs. Essentially, allowing end-users to select from their prefered IDPs in Solid Apps, not needing to remember their IDP nor be presented by a list of IDPs the web developer decided to show.
+
+#### Milestones
+
+- In-depth evaluation of Solid's IDP infrastructure and FedCM to identify potential integration points and ensure a harmonious fit
+- Collaborate closely with the Solid and FedCM community to design a customized protocol for Solid IDPs to seamlessly interface with the FedCM API. This protocol will prioritize the privacy and security principles that both Solid and FedCM endorse
+- Develop an intuitive user interface that empowers individuals to effortlessly manage their Solid identity and consent to federated authentication, all while maintaining a user-centric design approach
+- Implement a beta version of the integrated system and subject it to rigorous security audits. Collect feedback from early users and security experts to ensure that the solution not only works seamlessly but also safeguards user privacy
+
+#### Amount
+
+10000 Euro
+
 ### Multiple Pods Listed in Private Document
 
 Develop a private file format in the user's Solid pod that allows listing and discovery of multiple storage locations.
@@ -66,36 +81,3 @@ Develop a private file format in the user's Solid pod that allows listing and di
 #### Amount
 
 10000 Euro
-
-### Cookie "Where is My Pod?" Page
-
-Develop a website page called "Where is My Pod?" that sets a cookie to remember the Solid Pod's location for an end user.
-
-#### Milestones
-
-- Create the "Where is My Pod?" page with a user-friendly interface.
-- Implement the logic to set a cookie containing the user's Solid Pod location.
-- Handle multiple pod providers and allow users to select and save their preferred pod location.
-- Test the cookie functionality across different browsers and verify the accurate retrieval of pod location from the cookie.
-- Provide clear instructions and links to the "Where is My Pod?" page on relevant Solid websites and applications.
-
-#### Amount
-
-10000 Euro
-
-### Autofill Field Type for WebID + Browser Extension
-
-Develop an autofill field type for the WebID attribute and create a browser extension to facilitate autofilling information in Solid Apps.
-
-#### Milestones
-
-- Define the field type specification for WebID autofill in Solid Apps.
-- Implement the autofill functionality to automatically populate WebID fields with relevant information.
-- Create a browser extension compatible with major browsers to support the autofill functionality.
-- Test the autofill feature across various Solid Apps and ensure seamless integration and accurate population of WebID fields.
-- Provide clear documentation and instructions on how to install and use the browser extension for autofilling WebID attributes in Solid Apps.
-
-#### Amount
-
-10000 Euro
-
