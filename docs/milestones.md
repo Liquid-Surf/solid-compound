@@ -92,7 +92,7 @@ Keep the above project up to date and secure by providing maintenance.
 #### Milestones
 
 - Communicate the above to the community.
-- provide support
+- Provide support.
 - Fix bugs.
 - Improve documentation.
 
