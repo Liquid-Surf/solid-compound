@@ -25,11 +25,12 @@ Develop an identity bridge that enables end-users to register with a Solid IDP u
 
 #### Milestones
 
-- Research and understand the authentication flows and protocols of external OpenID Connect providers.
-- Design and implement the OIDC proxy service that sits in front of the Solid IDP.
-- Identify and enrich the authentication request from the external OIDC provider with the required Solid OpenID Connect fields.
-- Implement secure communication between the OIDC proxy and the Solid IDP.
-- Test the OIDC proxy functionality with various external OIDC providers and ensure seamless registration with the Solid IDP using existing accounts.
+- Research and understand the authentication flows and protocols of external OpenID Connect providers. ( 2 days ) 
+- Design and implement the OIDC proxy service that sits in front of the Solid IDP. ( 10 days )
+- Identify and enrich the authentication request from the external OIDC provider with the required Solid OpenID Connect fields. ( 5 days ) 
+- Implement secure communication between the OIDC proxy and the Solid IDP. ( 5 days )
+- Write robust tests of the OIDC proxy functionality with various external OIDC providers and ensure seamless registration with the Solid IDP using existing accounts. ( 5 days )
+- Write documentation. ( 2 days ) 
 
 #### Amount
 
