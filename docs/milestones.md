@@ -84,3 +84,19 @@ Develop a private file format in the user's Solid pod that allows listing and di
 #### Amount
 
 10000 Euro
+
+### Communication, maintenance and bug fix
+
+Keep the above project up to date and secure by providing maintenance.
+
+#### Milestones
+
+- Communicate the above to the community.
+- provide support
+- Fix bugs.
+- Improve documentation.
+
+#### Amount
+
+10000 Euro
+
