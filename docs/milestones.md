@@ -21,7 +21,7 @@
 
 ### OIDC Proxy
 
-Develop an identity bridge that enables end-users to register with a Solid IDP using their existing accounts from digital identity providers (e.g., Google, Facebook, GitHub). The OIDC proxy will enhance the authentication request from an external OpenID Connect server with the necessary Solid OpenID Connect fields.
+Develop an identity bridge that enables end-users to register with a Solid IDP using their existing accounts from digital identity providers (e.g., Google, Facebook, GitHub). The OIDC proxy will enhance the authentication request from an external OpenID Connect / OAuth server with the necessary Solid OpenID Connect fields.
 
 #### Milestones
 
