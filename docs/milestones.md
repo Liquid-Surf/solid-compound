@@ -36,6 +36,21 @@ Develop an identity bridge that enables end-users to register with a Solid IDP u
 
 10000 Euro
 
+### FedCM + WebID
+
+The Federated Credential Management (FedCM) API allows web developers to query for user registered IDPs. Essentially, allowing end-users to select from their prefered IDPs in Solid Apps, not needing to remember their IDP nor be presented by a list of IDPs the web developer decided to show.
+
+#### Milestones
+
+- In-depth evaluation of Solid's IDP infrastructure and FedCM to identify potential integration points and ensure a harmonious fit
+- Collaborate closely with the Solid and FedCM community to design a customized protocol for Solid IDPs to seamlessly interface with the FedCM API. This protocol will prioritize the privacy and security principles that both Solid and FedCM endorse
+- Develop an intuitive user interface that empowers individuals to effortlessly manage their Solid identity and consent to federated authentication, all while maintaining a user-centric design approach
+- Implement a beta version of the integrated system and subject it to rigorous security audits. Collect feedback from early users and security experts to ensure that the solution not only works seamlessly but also safeguards user privacy
+
+#### Amount
+
+10000 Euro
+
 ### User Registration Initiation via Solid-OpenID Connect
 
 When an end-user signs up for an account with a Solid IDP the registration flow does not log in the user after the registration is done. Which means when the end-user goes successfully through the Solid-OIDC registration flow of providing a username, email address and password they need to subsequently log in as well. The protocol does not do this automatically for them.
@@ -52,20 +67,7 @@ When an end-user signs up for an account with a Solid IDP the registration flow 
 
 10000 Euro
 
-### FedCM + WebID
 
-The Federated Credential Management (FedCM) API allows web developers to query for user registered IDPs. Essentially, allowing end-users to select from their prefered IDPs in Solid Apps, not needing to remember their IDP nor be presented by a list of IDPs the web developer decided to show.
-
-#### Milestones
-
-- In-depth evaluation of Solid's IDP infrastructure and FedCM to identify potential integration points and ensure a harmonious fit
-- Collaborate closely with the Solid and FedCM community to design a customized protocol for Solid IDPs to seamlessly interface with the FedCM API. This protocol will prioritize the privacy and security principles that both Solid and FedCM endorse
-- Develop an intuitive user interface that empowers individuals to effortlessly manage their Solid identity and consent to federated authentication, all while maintaining a user-centric design approach
-- Implement a beta version of the integrated system and subject it to rigorous security audits. Collect feedback from early users and security experts to ensure that the solution not only works seamlessly but also safeguards user privacy
-
-#### Amount
-
-10000 Euro
 
 ### Multiple Pods Listed in Private Document
 
