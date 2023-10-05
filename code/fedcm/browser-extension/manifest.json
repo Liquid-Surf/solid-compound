@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Federated Credential Management Wrapper",
+  "version": "1.0",
+  "description": "Wildcard Support",
+  "content_scripts": [
+    {
+      "js": [
+        "./content.js"
+      ],
+      "matches": [
+        "http://localhost/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
