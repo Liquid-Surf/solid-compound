@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Federated Credential Management Wrapper",
+  "name": "Inject Code Demo",
   "version": "1.0",
-  "description": "Wildcard Support",
+  "description": "Testing how to inject code",
   "content_scripts": [
     {
       "js": [
@@ -12,8 +12,5 @@
         "http://localhost/*"
       ]
     }
-  ],
-  "action": {
-    "default_popup": "popup.html"
-  }
+  ]
 }
