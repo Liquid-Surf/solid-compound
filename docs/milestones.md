@@ -1,5 +1,3 @@
-Sure, I've corrected some typos and made a few adjustments for clarity:
-
 # Milestones
 
 ## Pre-work: Research and Interview
