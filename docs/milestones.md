@@ -1,4 +1,4 @@
-# Milestones
+# Project Plan
 
 ## Pre-work: Research and Interview
 
@@ -42,11 +42,11 @@ The Federated Credential Management (FedCM) API allows web developers to query f
 
 #### Milestones
 
-- ✓ Build a proof of concept to allow querying the browser for "registered" IdPs (3 days)
-- ✓ Write a blog post about the PoC (1 day)
-- ✓ Build a test suite that checks an IdP's for FedCM compatibility (3 days)
-- ✓ Integrate FedCM's HTTP API endpoints in CSS (2 days)
-- ✓ Build a test client using Solid-OIDC + FedCM (1 day)
+- DONE Build a proof of concept to allow querying the browser for "registered" IdPs (3 days)
+- DONE Write a blog post about the PoC (1 day)
+- DONE Build a test suite that checks an IdP's for FedCM compatibility (3 days)
+- DONE Integrate FedCM's HTTP API endpoints in CSS (2 days)
+- DONE Build a test client using Solid-OIDC + FedCM (1 day)
 - Write a blog post on why FedCM is not compatible with Solid yet (1 day)
 - Write a blog post on the potential of FedCM for the decentralized authentication ecosystem (1 day)
   - Share the blog post and reach out to the relevant community, answer questions, etc. (1 day)
@@ -104,70 +104,79 @@ Keep the above project up to date and secure by providing maintenance.
  - Integrate the registration flow into pivot (0.5 days)
  - Integrate FedCM into pivot (0.5 days)
  - Display containers even if trailing slash is missing from the URL (3 days) [Link](https://github.com/CommunitySolidServer/CommunitySolidServer/issues/1208#issuecomment-1523120156)
+ - Security audit and patches for CSS with radically open security ( 5 days )
+
+#### Amount
+
+15 days * 350 = 5250 Euro
+
+
+
+### Browser Extension Development for Solid WebID and IDP Remembering
+
+Build a browser extension to remember WebID and IdP (as a FedCM fallback).
+
+#### Milestones
+
+ - Define the architecture of the browser extension. (1 day)
+   - Decide on the storage mechanism for saving WebID and IDP information.
+   - Determine how the extension will interact with Solid Apps.
+- Implement Basic Extension Structure (1 day)
+- Storage Mechanism (1 day)
+   - Implement a storage mechanism for saving WebID and IDP information.
+- Integration with Browser (1 day)
+   - Implement the necessary code to integrate the extension with the browser.
+   - Ensure compatibility with popular browsers (e.g., Chrome, Firefox).
+- Web App Interaction (1 day)
+   - Develop functionality to detect the WebID and IDP used on a particular Solid App.
+   - Implement logic to save and update this information in the extension.
+- Remembering Functionality (1 day)
+   - Implement the core functionality to remember the last used WebID and IDP for each Solid App.
+- Options and Settings (1 day)
+   - Create a settings page for the extension.
+   - Allow users to configure preferences, such as enabling/disabling remembering functionality.
+- Testing (1 days)
+   - Conduct thorough testing of the extension in different browsers.
+   - Test the extension with various Solid Apps to ensure compatibility.
+- Documentation (1 day)
+   - Create comprehensive documentation for users and developers.
+   - Include installation instructions, usage guidelines, and any additional information.
+- Publish the extension on relevant browser extension stores (e.g., Chrome Web Store, Firefox Add-ons). (1 day)
 
 #### Amount
 
 10 days * 350 = 3500 Euro
 
-Remains: 55 days
-
-### Browser Extension
-
-Build a browser extension to remember WebID and IdP (as a FedCM fallback).
-
-Certainly! Here are the milestones for developing a browser extension to remember the Solid WebID and IDP used on particular Solid Apps:
-
-## Browser Extension Development for Solid WebID and IDP Remembering
-
-### Milestones
-
- - Define the architecture of the browser extension.
-   - Decide on the storage mechanism for saving WebID and IDP information.
-   - Determine how the extension will interact with Solid Apps.
-- Implement Basic Extension Structure
-- Storage Mechanism
-   - Implement a storage mechanism for saving WebID and IDP information.
-- Integration with Browser
-   - Implement the necessary code to integrate the extension with the browser.
-   - Ensure compatibility with popular browsers (e.g., Chrome, Firefox).
-- Web App Interaction
-   - Develop functionality to detect the WebID and IDP used on a particular Solid App.
-   - Implement logic to save and update this information in the extension.
-- Remembering Functionality
-   - Implement the core functionality to remember the last used WebID and IDP for each Solid App.
-- Options and Settings
-   - Create a settings page for the extension.
-   - Allow users to configure preferences, such as enabling/disabling remembering functionality.
-- Testing
-   - Conduct thorough testing of the extension in different browsers.
-   - Test the extension with various Solid Apps to ensure compatibility.
-- Documentation 
-   - Create comprehensive documentation for users and developers.
-   - Include installation instructions, usage guidelines, and any additional information.
-- Publish the extension on relevant browser extension stores (e.g., Chrome Web Store, Firefox Add-ons).
-
 ### Solid App Development Framework
 
 In this milestone, we are providing a framework to build a Solid App. It will be based on Express.
 
-- Define the project structure of a Solid App
-- Model-View-Controller
+- Define the project structure of a Solid App (2 days)
+- Model-View-Controller (6 days)
   - Abstraction for data entities
   - Layer for data access, from the app's storage or remote
   - RESTful routing
   - CRUD operations on models
   - Template engine rendering models
   - Form creator for data entities
-- Authentication and Authorization
+- Authentication and Authorization (6 days)
   - Creating a pod with the app
     - Sign up with credentials
     - Sign up using the previously developed OIDC Proxy
   - Sign up with Solid-OIDC
-- Storage
+- Hybride Storage (6 days)
   - Use CSS for app's persistence
-- CLI for code generation
-- Wiring existing libraries together (LDO, solid-client-authn-node)
-- Write documentation
-- Provide an example development of a blog app
+    - store data in a remote CSS instance
+    - store data in the framework's CSS instance
+    - implement the logic to redirect to the correct CSS instance
+- CLI for code generation (6 days)
+- Wiring existing libraries together (LDO, solid-client-authn-node) (6 days)
+- Write documentatio (6 days)
+- Security audit and patches for CSS with radically open security ( 4 days )
+- Provide an example development of a blog app (2 days)
 
-### User Migration
+#### Ammount
+
+40 days * 350 = 14000 Euro
+
+
