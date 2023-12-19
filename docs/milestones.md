@@ -175,8 +175,12 @@ In this milestone, we are providing a framework to build a Solid App. It will be
 - Security audit and patches for CSS with radically open security ( 4 days )
 - Provide an example development of a blog app (2 days)
 
-#### Ammount
+#### Amount
 
 40 days * 350 = 14000 Euro
 
 
+## Total
+
+140 days = 49000 Euro
+Remains 1000 Euro (2.85 days) extra
