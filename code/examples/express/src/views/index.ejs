@@ -1,0 +1,12 @@
+
+<%- include('head', { title: 'Index' }) -%>
+
+<h1>Welcome</h1>
+
+<% if (user) { %>
+  Current session: <%= user.username %>
+<% } else { %>
+  No user session
+<% } %>
+
+<%- include('footer', { title: 'Index' }) -%>

@@ -18,6 +18,65 @@ Solid Compound offers a hybrid data storage approach, allowing for data to be st
 
 This hybrid approach ensures a smooth transition towards a more decentralized web, while simultaneously broadening the reach of Solid developers to users who may not yet be familiar with the Solid ecosystem.
 
+## Getting Started
+
+In the first steps I would like to build a minimal blog with each technology. In a next step I would like enrich its features.
+
+### Features
+
+#### Round 1 (Base)
+
+1. Create article
+2. Update article
+3. Show article
+  3.1 Detail page
+  3.2 List page
+4. Delete article
+5. Persistant storage in the backend
+
+#### Round 2 (AuthN/Z)
+
+1. Credential based authentication
+2. Access control
+3. Session
+
+#### Round 3 (Solid Integration)
+
+1. Solid Login
+2. Store in Pod
+
+### Frameworks
+
+Backend Frameworks
+
+1. Express
+2. Django
+3. Rails
+4. Spring Boot
+5. Laravel
+
+Frontend Frameworks
+
+1. React
+2. Vue.js
+3. Svelte
+
+Database
+
+1. SQLite
+2. Postgres
+3. MySQL
+4. MongoDB
+
+### To-Do App
+
+#### Scenarios 1
+
+- MVC structure
+- Express
+- React
+- SQLite
+
 ## Sponsorship
 
 [<img src="https://nlnet.nl/image/logo_nlnet.svg" alt="The nlnet foundation logo." width="150" />](https://nlnet.nl/)
